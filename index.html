@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>vue1-分页</title>
+	<style type="text/css">
+		.pageing-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
+}
+.pageing-blue a {
+  padding: 5px 10px;
+  background-color: #e8e8e8;
+  color: #646464;
+}
+.pageing-blue a:hover {
+  color: #fff;
+  background-color: #35adc6;
+}
+.pageing-blue a,
+.pageing-blue span,
+.pageing-blue button {
+  margin-right: 10px;
+}
+.pageing-blue > input {
+  width: 70px;
+  border: #bebebe solid 1px;
+  height: 29px;
+  padding: 3px;
+}
+.pageing-blue > button {
+  width: 50px;
+  height: 29px;
+  background-color: #bebebe;
+}
+.pageing-blue .blue {
+  color: #fff;
+  background-color: #35adc6;
+}
+	</style>
+</head>
+<body id="body">
+	<o-pager></o-pager>
+		<script src="vue.js"></script>
+		<script src="main.js"></script>
+</body>
+</html>
